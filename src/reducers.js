@@ -1,5 +1,6 @@
-import { MARK_SQUARE } from '../actions'
-import { CHANGE_PLAYER } from '../actions'
+import { MARK_SQUARE, CHANGE_PLAYER } from '../actions'
+// import actions from '../actions'
+
 
 const initialState = {
   current_player: 1,
@@ -10,7 +11,7 @@ function ticTacToe(state = initialState, action) {
   switch (action.type) {
     case MARK_SQUARE:
       return Object.assign({}, state, {
-        # change the square position
+        // change the square position
       })
     case CHANGE_PLAYER:
 

@@ -13,8 +13,8 @@
     "webpack": "^2.5.1"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel src -d dist",
-    "webpack": "./node_modules/.bin/webpack",
+    "build": "babel src -d dist",
+    "webpack": "webpack",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,18 @@
+.repackagerc
+dist
+/bin/
+/lib/
+/package/
+/public/
+/webpack/
+/config.js
+/webpack.config.js
+/webpack.static.config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
